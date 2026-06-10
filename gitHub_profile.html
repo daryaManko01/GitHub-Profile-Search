@@ -149,25 +149,25 @@
             <span class="h1"><strong>Github User Finder</strong></span>
             <span class="h2">Search for GitHub users and view their profile</span>
         </div>
-        <div class="form">
-            <input class="input" type="text" name="number" placeholder="Enter name">
+        <form id="form" class="form">
+            <input id="input_name" class="input" type="text" name="number" placeholder="Enter name">
             <input class="button" type="submit" value="Search">
-        </div>
+        </form>
     </div>
 
 
     <div class="card">
         <div>
-            <img src="src/image.svg">
+            <img id="avatar_url" src="src/image.svg">
         </div>
         <div>
             <div class="part_one">
                 <div>
-                    <span class="text"><strong>Ethan Brooks</strong></span>
+                    <span id="name_bio" class="text"><strong>Ethan Brooks</strong></span>
                 </div>
                 <div class="description">
-                    <span class="text_description">@ethanbrooks</span>
-                    <span class="text_description">Frontend developer passionate about building clean<br>
+                    <span id="login" class="text_description">@ethanbrooks</span>
+                    <span id="bio" class="text_description">Frontend developer passionate about building clean<br>
                         and user-friendly web applications.
                     </span>
                 </div>
@@ -176,33 +176,34 @@
                 <div class="description_end">
                     <div class="name_one">
                         <span class="text_name">Public Repos:</span>
-                        <span class="text_name color">8</span>
+                        <span id="repos" class="text_name color">8</span>
                     </div>
                     <div class="name_one">
                         <span class="text_name">Followers:</span>
-                        <span class="text_name color">2</span>
+                        <span id="followers" class="text_name color">2</span>
                     </div>
                     <div class="name_one">
                         <span class="text_name">Following:</span>
-                        <span class="text_name color">15</span>
+                        <span id="following" class="text_name color">15</span>
                     </div>
                 </div>
                 <div class="description_end">
                     <div class="name_one">
                         <span class="text_name">Location:</span>
-                        <span class="text_name color">London</span>
+                        <span id="location" class="text_name color">London</span>
                     </div>
                     <div class="name_one">
                         <span class="text_name">Company:</span>
-                        <span class="text_name color">Freelance</span>
+                        <span id="coumpany" class="text_name color">Freelance</span>
                     </div>
                     <div class="name_one">
                         <span class="text_name">Blog:</span>
-                        <span class="text_name color">ethanbrooks.dev</span>
+                        <span id="blog" class="text_name color">ethanbrooks.dev</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 
 </body>

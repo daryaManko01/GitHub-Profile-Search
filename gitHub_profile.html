@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Finder</title>
+    <style>
+        body {
+            background-color: #010310;
+            padding-top: 160px;
+
+        }
+
+        .h1 {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 56px;
+            font-style: normal;
+        }
+
+        .h2 {
+            color: #7A7676;
+            text-align: center;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+        }
+
+        .main_text {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .input {
+            color: white;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            padding: 13px 250px 13px 13px;
+            border-radius: 5px;
+            border: 1px solid #202E41;
+            background-color: #202E41;
+        }
+
+        .button {
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 16px;
+            padding: 12px 48px;
+            background-color: #1451E8;
+            border: 1px solid #202E41;
+            border-radius: 5px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: row;
+            gap: 13px;
+            justify-content: center;
+        }
+
+        .first_block {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .text {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+        }
+
+        .text_description {
+            color: #7A7676;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+        }
+
+        .description {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .part_one {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .text_name {
+            color: #FFF;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+        }
+
+        .color {
+            color: #7A7676;
+        }
+
+        .name_one {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .description_end {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+        }
+
+        .card {
+            display: flex;
+            gap: 22px;
+            flex-direction: row;
+            background-color: #0B192B;
+            border: 1px solid #202E41;
+            padding: 30px 30px 30px 30px;
+            width: fit-content;
+            margin: 35px auto 0;
+            border-radius: 5px;
+        }
+
+        .text_down {
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="first_block">
+        <div class="main_text">
+            <span class="h1"><strong>Github User Finder</strong></span>
+            <span class="h2">Search for GitHub users and view their profile</span>
+        </div>
+        <div class="form">
+            <input class="input" type="text" name="number" placeholder="Enter name">
+            <input class="button" type="submit" value="Search">
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div>
+            <img src="src/image.svg">
+        </div>
+        <div>
+            <div class="part_one">
+                <div>
+                    <span class="text"><strong>Ethan Brooks</strong></span>
+                </div>
+                <div class="description">
+                    <span class="text_description">@ethanbrooks</span>
+                    <span class="text_description">Frontend developer passionate about building clean<br>
+                        and user-friendly web applications.
+                    </span>
+                </div>
+            </div>
+            <div class="text_down">
+                <div class="description_end">
+                    <div class="name_one">
+                        <span class="text_name">Public Repos:</span>
+                        <span class="text_name color">8</span>
+                    </div>
+                    <div class="name_one">
+                        <span class="text_name">Followers:</span>
+                        <span class="text_name color">2</span>
+                    </div>
+                    <div class="name_one">
+                        <span class="text_name">Following:</span>
+                        <span class="text_name color">15</span>
+                    </div>
+                </div>
+                <div class="description_end">
+                    <div class="name_one">
+                        <span class="text_name">Location:</span>
+                        <span class="text_name color">London</span>
+                    </div>
+                    <div class="name_one">
+                        <span class="text_name">Company:</span>
+                        <span class="text_name color">Freelance</span>
+                    </div>
+                    <div class="name_one">
+                        <span class="text_name">Blog:</span>
+                        <span class="text_name color">ethanbrooks.dev</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
